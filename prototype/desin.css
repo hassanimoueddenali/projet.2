@@ -1,34 +1,208 @@
 *{
     margin: 0;
     padding: 0;
+    top: 0;
 }
-body{
-    width: 100%;
-    height: 2500px;
-    font-family: Arial, Helvetica, sans-serif;
+li a button{
+    font-family: sans-serif;
+    position: sticky;
+    font-size: 16px;
+    text-decoration: none;
 }
+
 header{
+    padding: 25px 3%;
     background-color: #C081D7;
-    position: fixed;
+
+}
+.logo{
+    cursor: pointer;
+    font-family: monospace;
+    color: white;
+    float: left;
+    position: sticky;
+    width: 90px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+.menu-bar{
+    list-style: none;
+}
+.menu-bar li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+.menu-bar li a{
+    color:white;
+}
+.menu-bar li a{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.day :hover{
+    background-color: palevioletred;
+    
+}
+
+.log{
+    padding: 9px 25px;
+    background-color: #C081D7;
+    border: 2px solid white;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+.day button{
+    padding: 9px 25px;
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 59px;
+
+}
+.par1{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.contact {
+    background-color:#C081D7 ;
+}
+.form-container {  
+    float: left;
+    margin-top: 12px;
+    margin-left: 21px;
+    width: 50%;
+    font-size: 20px;
+  
+}
+.ultimate-container {
+
     width: 100%;
 }
-header img{
-    float: left;
-    padding: 10px 30px;
-}
-header ul{
-    float: left;
-    padding-top: 10px;
-    padding-bottom: 20.5px;
-}
-header ul li{
-    list-style: none;
-    padding: 10px 30px;
-    display: inline-block;
-}
-.nav-buttons{
+.landerteam-container{
     float: right;
-    margin: 20px 50px;
+    width:  45%;
+    margin-bottom: 115px;
+
+}
+.par2{
+    text-align: left;
+   height: 50px;
+   margin-bottom: 60px;
+}
+#reach{
+    color: #C081D7;
+}
+#landerteam{
+    color: #C081D7;
+    padding: 12px;
+    font-size: 40px;
+}
+#helpcenter{
+    color: #F35D5D;
+    text-underline-offset: none;
+    list-style-type: none;
+}
+#otherway{
+    text-emphasis-style: bold;
+}
+#fbspan{
+    color: #F35D5D;
+}
+#twitterspan{
+    color: #F35D5D;
+}
+#followspan{
+    color: #F35D5D;
+}
+
+textarea{
+    resize: none;
+}
+#submitbutton{
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    margin: 10px 10px ;
+    padding: 15px 15px;
+    background-color: #F9D1FF;
+}
+.fa-facebook{
+    float: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #4267B2;
+}
+.fa-twitter{
+    clear: both;
+    float: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #1DA1F2;
+}
+.fa-linkedin{
+    clear: both;
+    float: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: rgb(76, 76, 226);
+}
+footer {
+
+    background-color:#C081D7;
+    height: 400px;
+    margin-top: 600px;
+}
+
+.footerlist {
+    width: 205px;
+    float: left;
+    margin-top: 40px;
+}
+
+.footerlist .title {
+
+    color: bl;
+    font-style: normal;
+
+}
+
+.footerlist li {
+
+    list-style: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.footerlist i {
+
+    color: #548CA8;
+    stroke:#548CA8;
+}
+
+.footerlist p {
+
+    color:black;
+    opacity: 0.6;
+}
+#create-youre{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 10px ;
+    padding: 15px 15px;
+    background-color: black;
+}
+#create-youre button:hover{
+    color: palevioletred;
+
 }
 
 
