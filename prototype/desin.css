@@ -1,8 +1,34 @@
-.header{
-    color: white;
-    text-align: center;
-    background-color: rgb(230, 117, 11);
-    height: 100px;
-    font-family: 'Rye', cursive;
-    padding: 20px;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    width: 100%;
+    height: 2500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #C081D7;
+    position: fixed;
+    width: 100%;
+}
+header img{
+    float: left;
+    padding: 10px 30px;
+}
+header ul{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 20.5px;
+}
+header ul li{
+    list-style: none;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.nav-buttons{
+    float: right;
+    margin: 20px 50px;
+}
+
+
